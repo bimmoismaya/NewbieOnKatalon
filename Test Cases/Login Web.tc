@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login dengan username dan password</description>
+   <name>Login Web</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a99ffb46-3a87-489a-970d-159c6c51f726</testCaseGuid>
+</TestCaseEntity>
