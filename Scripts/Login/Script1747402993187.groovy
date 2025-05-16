@@ -17,3 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+
+WebUI.setText(findTestObject('null'), 'Admin')
+
+WebUI.setEncryptedText(findTestObject('null'), 'RAIVpflpDOg=')
+
+WebUI.sendKeys(findTestObject('null'), Keys.chord(Keys.ENTER))
+
+WebUI.setText(findTestObject('null'), 'Admin')
+
+WebUI.setEncryptedText(findTestObject('null'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+
+WebUI.sendKeys(findTestObject('null'), Keys.chord(Keys.ENTER))
+
+WebUI.closeBrowser()
+
